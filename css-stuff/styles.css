@@ -1,0 +1,45 @@
+/* styles.css */
+
+/* select by div (selects all div) */
+div {
+    color: black;
+}
+
+/* select by div class */
+.alert-text {
+    color: red;
+}
+
+/* select by id */
+#title {
+    background-color: red;
+}
+
+/* grouping selector */
+.read {
+    color: white;
+    background-color: black;
+    /* several unique declarations */
+}
+
+.unread {
+    color: white;
+    background-color: black;
+    /* several unique declarations */
+}
+
+
+/* chaining selectors */
+
+.subsection.header {
+    color: red;
+}
+
+
+.subsection.header {
+    color: red;
+}
+
+.subsection#preview {
+    color: blue;
+}
